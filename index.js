@@ -8,7 +8,7 @@ try {
     const resultado = await database.sync();
     console.log(resultado);
 
-    const resultadoCreate = await Produto.crrate({
+    const resultadoCreate = await Produto.create({
         nome: 'mouse',
         preco: 10,
         descricao: 'Um mouse USB bonitão'
